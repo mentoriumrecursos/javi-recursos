@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Javi · Recursos para escalar tu ecommerce</title>
+<style>
+:root{--bg:#070708;--glass:rgba(255,255,255,.045);--oro:#E8C84A;--oro2:#C9A227;--oroL:#FBEFC0;--tx:#F5F3EC;--tx2:#9d9a90;--line:rgba(255,255,255,.09);--wa:#25D366}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--tx);font-family:'Segoe UI',-apple-system,system-ui,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::after{content:"";position:fixed;inset:0;z-index:1;pointer-events:none;opacity:.04;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.wrap{max-width:920px;margin:0 auto;padding:0 22px;position:relative;z-index:3}
+a{color:inherit;text-decoration:none}button{font-family:inherit;cursor:pointer;border:none}
+.gold{background:linear-gradient(100deg,var(--oroL),var(--oro) 40%,var(--oro2) 70%,var(--oroL));-webkit-background-clip:text;background-clip:text;color:transparent;background-size:200% auto;animation:shine 5s linear infinite}
+@keyframes shine{to{background-position:200% center}}
+.topbar{position:relative;z-index:5;background:linear-gradient(90deg,var(--oro2),var(--oro),var(--oro2));background-size:200% auto;animation:shine 6s linear infinite;color:#070708;text-align:center;font-weight:800;letter-spacing:.6px;font-size:12px;padding:9px;text-transform:uppercase}
+.hero{position:relative;min-height:90vh;display:flex;align-items:center;text-align:center;overflow:hidden;padding:60px 0}
+.mesh{position:absolute;inset:-25%;z-index:0;filter:blur(20px);background:radial-gradient(32% 30% at 22% 28%,rgba(232,200,74,.34),transparent 60%),radial-gradient(30% 28% at 80% 22%,rgba(201,162,39,.26),transparent 60%),radial-gradient(36% 34% at 65% 78%,rgba(232,200,74,.18),transparent 60%);animation:mesh 18s ease-in-out infinite alternate}
+@keyframes mesh{0%{transform:translate(-4%,-3%) scale(1)}100%{transform:translate(5%,4%) scale(1.18) rotate(8deg)}}
+.veil{position:absolute;inset:0;z-index:2;background:linear-gradient(180deg,rgba(7,7,8,.35),rgba(7,7,8,.2) 45%,var(--bg) 97%)}
+.hero>.wrap{z-index:3}
+.av{width:96px;height:96px;border-radius:50%;object-fit:cover;margin:0 auto 16px;display:block;border:2px solid rgba(232,200,74,.7);box-shadow:0 0 0 7px rgba(232,200,74,.1),0 0 40px rgba(232,200,74,.35)}
+.handle{color:var(--oroL);font-weight:700;font-size:15px}
+.kick{display:inline-block;margin:18px auto 16px;border:1px solid rgba(232,200,74,.45);color:var(--oroL);font-size:11.5px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:7px 17px;border-radius:30px;background:rgba(232,200,74,.06)}
+h1{font-size:46px;line-height:1.1;font-weight:800;letter-spacing:-1.2px;margin:8px auto 18px;max-width:800px}
+.sub{color:#dedbd2;font-size:18.5px;max-width:610px;margin:0 auto 30px}
+.cta{display:inline-block;background:linear-gradient(100deg,var(--oro2),var(--oro) 55%,var(--oroL));color:#070708;font-weight:800;font-size:16.5px;padding:18px 44px;border-radius:16px;text-transform:uppercase;transition:transform .18s}
+.cta:hover{transform:translateY(-3px) scale(1.03)}
+.stats{display:flex;gap:34px;justify-content:center;margin-top:30px;flex-wrap:wrap}
+.stat .n{font-size:30px;font-weight:800}.stat .l{color:var(--tx2);font-size:12px;letter-spacing:.6px;text-transform:uppercase}
+.sec{padding:60px 0 10px;position:relative;z-index:3}
+.sec h2{font-size:32px;font-weight:800;text-align:center;letter-spacing:-.6px}
+.note{color:var(--tx2);font-size:14.5px;text-align:center;max-width:650px;margin:14px auto 34px;font-style:italic}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.rc{position:relative;display:block;background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.02));border:1px solid var(--line);border-radius:20px;padding:22px;text-align:left;color:var(--tx);overflow:hidden;transition:transform .12s ease,box-shadow .25s}
+.rc::before{content:"";position:absolute;inset:0;border-radius:20px;padding:1.3px;background:linear-gradient(135deg,rgba(232,200,74,.55),transparent 45%,rgba(232,200,74,.15));-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;opacity:.5;transition:opacity .25s}
+.rc:hover{box-shadow:0 24px 60px rgba(0,0,0,.55);transform:translateY(-4px)}
+.rc:hover::before{opacity:1}
+.rc .ic{font-size:25px;margin-bottom:11px;display:block}
+.rc h3{font-size:16.5px;font-weight:700;margin-bottom:6px}
+.rc p{color:var(--tx2);font-size:13.5px;margin-bottom:15px;min-height:38px}
+.rc .v{color:var(--oro);font-weight:800;font-size:13px;letter-spacing:.3px}
+.bonus{background:linear-gradient(180deg,rgba(232,200,74,.13),rgba(255,255,255,.02))}
+.bonus .tag{position:absolute;top:0;right:0;background:linear-gradient(90deg,var(--oro2),var(--oro));color:#070708;font-size:10px;font-weight:800;letter-spacing:1px;padding:4px 12px;border-bottom-left-radius:13px}
+/* WHATSAPP CTA */
+.waband{background:linear-gradient(180deg,rgba(37,211,102,.10),rgba(255,255,255,.02));border:1px solid rgba(37,211,102,.30);border-radius:24px;padding:38px 28px;text-align:center;margin-top:14px}
+.waband h2{font-size:27px;font-weight:800;margin-bottom:8px}
+.waband p{color:var(--tx2);font-size:15px;max-width:520px;margin:0 auto 22px}
+.wabtn{display:inline-flex;align-items:center;gap:10px;background:var(--wa);color:#06210f;font-weight:800;font-size:16px;padding:17px 38px;border-radius:40px;box-shadow:0 14px 40px rgba(37,211,102,.35);transition:transform .15s}
+.wabtn:hover{transform:translateY(-3px) scale(1.03)}
+.conn{display:grid;grid-template-columns:repeat(2,1fr);gap:13px;margin-top:26px}
+.cn{background:var(--glass);border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;align-items:center;gap:13px;transition:border-color .2s,transform .12s}
+.cn:hover{border-color:rgba(232,200,74,.45);transform:translateY(-3px)}
+.cn .e{font-size:24px}.cn b{font-size:15px}.cn span{display:block;color:var(--tx2);font-size:12.5px}
+.who{position:relative;background:linear-gradient(180deg,#0e0e11,#0a0a0c);border:1px solid var(--line);border-radius:26px;padding:42px 30px;margin-top:16px;text-align:center;overflow:hidden}
+.who img{width:116px;height:116px;border-radius:50%;border:2px solid var(--oro);object-fit:cover;margin:0 auto 16px;display:block;box-shadow:0 0 0 7px rgba(232,200,74,.1)}
+.who .nm{font-weight:800;font-size:21px}
+.who p{color:var(--tx2);font-size:15.5px;max-width:600px;margin:11px auto 0}
+.foot{text-align:center;color:#5f5d56;font-size:12px;padding:50px 0 70px;position:relative;z-index:3}
+#sticky{position:fixed;left:0;right:0;bottom:-100px;z-index:40;display:flex;justify-content:center;transition:bottom .4s cubic-bezier(.2,.8,.2,1)}
+#sticky.on{bottom:20px}
+#sticky a{background:var(--wa);color:#06210f;font-weight:800;padding:15px 30px;border-radius:40px;font-size:14.5px;box-shadow:0 14px 46px rgba(37,211,102,.45);display:inline-flex;align-items:center;gap:9px}
+.cfg{background:rgba(232,200,74,.1);color:var(--oro);text-align:center;font-size:11.5px;padding:8px;border-bottom:1px solid var(--line)}
+@media(max-width:660px){h1{font-size:31px}.grid,.conn{grid-template-columns:1fr}.hero{min-height:auto;padding:48px 0}.sec{padding:46px 0 8px}.stats{gap:20px}}
+</style>
+</head>
+<body>
+<div class="topbar">Herramientas nuevas cada semana · 100% gratis</div>
+
+<section class="hero">
+  <div class="mesh"></div><div class="veil"></div>
+  <div class="wrap">
+    <img class="av" src="javi_avatar.png" alt="Javi" onerror="this.style.display='none'">
+    <div class="handle">Javi · @javier.sanchezecom</div>
+    <div class="kick">Solo si ya tienes una tienda online</div>
+    <h1>Las herramientas con las que <span class="gold">audito tiendas y arreglo márgenes</span> antes de escalar</h1>
+    <p class="sub">Calculadoras, auditores y generadores reales. Los mismos que uso yo. Gratis, sin email, <b>las abres y las usas</b>.</p>
+    <a class="cta" href="#recursos">Ver las herramientas ↓</a>
+    <div class="stats">
+      <div class="stat"><div class="n gold">+50</div><div class="l">herramientas</div></div>
+      <div class="stat"><div class="n gold">+20M$</div><div class="l">facturados</div></div>
+      <div class="stat"><div class="n">0€</div><div class="l">sin tarjeta</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="sec" id="recursos"><div class="wrap">
+  <h2>¿Qué hay <span class="gold">dentro</span>?</h2>
+  <p class="note">Te doy gratis lo que otros cobran. Clic y se abre — sin registros, sin trucos.</p>
+  <div class="grid">
+    <a class="rc" href="https://mentoriumrecursos.github.io/auditoria-express.html" target="_blank" rel="noopener"><span class="ic">🔎</span><h3>Auditoría Express</h3><p>En 5 min: qué te está frenando las ventas hoy.</p><span class="v">Abrir gratis →</span></a>
+    <a class="rc" href="https://mentoriumrecursos.github.io/calculadora-margenes.html" target="_blank" rel="noopener"><span class="ic">💸</span><h3>Márgenes reales</h3><p>Producto + ads + envío + pasarela. El número de verdad.</p><span class="v">Abrir gratis →</span></a>
+    <a class="rc" href="https://mentoriumrecursos.github.io/calculadora-roas-real.html" target="_blank" rel="noopener"><span class="ic">📊</span><h3>ROAS real</h3><p>Lo que ganas de verdad por cada euro en ads.</p><span class="v">Abrir gratis →</span></a>
+    <a class="rc" href="https://mentoriumrecursos.github.io/calculadora-break-even-diario.html" target="_blank" rel="noopener"><span class="ic">🎯</span><h3>Break-even diario</h3><p>Cuánto vender al día para no perder.</p><span class="v">Abrir gratis →</span></a>
+    <a class="rc" href="https://mentoriumrecursos.github.io/recursos/7_FUGAS_CHECKOUT.pdf" target="_blank" rel="noopener"><span class="ic">🩹</span><h3>Las 7 fugas del checkout</h3><p>Por dónde se escapan las ventas al final.</p><span class="v">Abrir gratis →</span></a>
+    <a class="rc" href="https://mentoriumrecursos.github.io/scorecard-madurez-ecommerce.html" target="_blank" rel="noopener"><span class="ic">🧭</span><h3>Scorecard de madurez</h3><p>En qué nivel estás y qué arreglar primero.</p><span class="v">Abrir gratis →</span></a>
+    <a class="rc" href="https://mentoriumrecursos.github.io/generador-hooks.html" target="_blank" rel="noopener"><span class="ic">🪝</span><h3>Generador de hooks</h3><p>Ganchos que paran el scroll en tus ads.</p><span class="v">Abrir gratis →</span></a>
+    <a class="rc" href="https://mentoriumrecursos.github.io/simulador-escalado.html" target="_blank" rel="noopener"><span class="ic">📈</span><h3>Simulador de escalado</h3><p>Qué pasa con tu caja si subes inversión.</p><span class="v">Abrir gratis →</span></a>
+  </div>
+  <div class="grid" style="margin-top:16px">
+    <a class="rc bonus" href="https://mentoriumrecursos.github.io/generador-prompts-nano-banana.html" target="_blank" rel="noopener"><span class="tag">Bonus</span><span class="ic">🤖</span><h3>Fotos de producto con IA</h3><p>Sin sesión de fotos.</p><span class="v">Abrir gratis →</span></a>
+    <a class="rc bonus" href="https://mentoriumrecursos.github.io/email-flows-generator.html" target="_blank" rel="noopener"><span class="tag">Bonus</span><span class="ic">📧</span><h3>Flujos de email que venden</h3><p>Recuperan ventas en automático.</p><span class="v">Abrir gratis →</span></a>
+  </div>
+</div></div>
+
+<div class="sec"><div class="wrap">
+  <div class="waband">
+    <h2>Únete a la <span class="gold">comunidad</span> 💬</h2>
+    <p>Dudas, casos reales y herramientas nuevas cada semana. Rodéate de gente que escala de verdad.</p>
+    <a class="wabtn" id="wamain" href="#" target="_blank" rel="noopener">💬 Entrar al WhatsApp</a>
+  </div>
+  <div class="conn">
+    <a class="cn" href="https://www.instagram.com/javier.sanchezecom" target="_blank" rel="noopener"><span class="e">📸</span><div><b>Instagram</b><span>@javier.sanchezecom · mi día a día</span></div></a>
+    <a class="cn" id="waside" href="#" target="_blank" rel="noopener"><span class="e">💬</span><div><b>WhatsApp</b><span>Escríbeme directo</span></div></a>
+  </div>
+</div></div>
+
+<div class="sec"><div class="wrap">
+  <div class="who">
+    <img src="javi_who.jpg" alt="Javi" onerror="this.style.display='none'">
+    <div class="nm">Javi · @javier.sanchezecom</div>
+    <p>Llevo en el ecommerce desde antes de que estuviera de moda. He llevado cuentas de tiendas que facturan de verdad y sé lo que duele cuando los números no cuadran.</p>
+    <p>No te suelto cifras y ya. Te dejo las herramientas con las que de verdad audito y escalo, para que las uses <b>hoy</b>.</p>
+    <a class="cta" style="margin-top:24px" href="#recursos">Ir a las herramientas</a>
+  </div>
+</div></div>
+
+<div class="foot"><div class="wrap">MENTORIUM · Javi · @javier.sanchezecom<br><span style="color:#46443e;font-size:11px">Herramientas gratuitas de uso orientativo. Los números dependen de los datos que metas tú.</span></div></div>
+
+<div id="sticky"><a id="wasticky" href="#" target="_blank" rel="noopener">💬 Entrar al WhatsApp</a></div>
+
+<script>
+// === Gerard: pega aqui tu link de grupo/comunidad WhatsApp (https://chat.whatsapp.com/...). Si lo dejas vacio, los botones llevan a Instagram. ===
+var WA_LINK = "";
+(function(){
+  var dest = WA_LINK || "https://www.instagram.com/javier.sanchezecom";
+  ["wamain","waside","wasticky"].forEach(function(id){var el=document.getElementById(id);if(el)el.href=dest});
+  var st=document.getElementById('sticky');addEventListener('scroll',function(){st.classList.toggle('on',scrollY>700)});
+})();
+</script>
+</body>
+</html>
